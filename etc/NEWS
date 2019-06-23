@@ -2205,6 +2205,8 @@ was able to 'set' modifiers without the knowledge of the user.
 ** On NS multicolor font display is enabled again since it is also
 implemented in Emacs on free operating systems via Cairo drawing.
 
+** XWidgets are now available on macOS 10.10 and above.
+
 
 ----------------------------------------------------------------------
 This file is part of GNU Emacs.
