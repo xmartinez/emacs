@@ -1586,6 +1586,9 @@ setup_pty (int fd)
   }
 #endif
 #endif
+
+  /* TODO(xmartinez): Document this. */
+  set_window_size (fd, 24, 80);
 }
 #endif /* HAVE_PTYS */
 
